@@ -2,18 +2,18 @@ import React from 'react'
 
 function regulation() {
   return (
-    <div>
-        <div class='text-2xl mb-2 font-bold'>Contest Regulation</div>
-        <ul class='px-6 text-sm'>
-            <li> 1. Can be participated 3 Categories with different style  </li>
-            <li> 2. The photo should be your own one or your work photos </li>
-            <li> 3. The photo should be submitted by Mar 31 2023 </li>
-            <li> 4. The photos not related with hair style would be deleted </li>
-            <li> 5. Winners are contacted by phone or whatsapp to get the address for prize </li>
-            <li> 6. The number of winners would be adjusted base on the number of participants </li>
-            <li> 7. The number of Prize hair would be adjusted depend on the number of participats </li>
-            <li> 8. The winners will be announced on April 5 2023 on Instagram and Facebook </li>
-            <li> 8. The photos on Instagram would be considered to select the winners </li>
+    <div className='bg-slate-100'>
+        <div class='text-2xl mb-2 font-bold px-4'>Contest Regulation</div>
+        <ul class='px-6 text-xs py-2'>
+            <li> 1. You may participate in all three categories as long as you submit different styles for each. </li>
+            <li> 2. Please only use photos of your own personal work. </li>
+            <li> 3. Must submit any and all submissions by March 31, 2023.  </li>
+            <li> 4. Any unrelated photos will be deleted.  </li>
+            <li> 5. Winners will be contacted through WhatsApp messages or via phone call to get prize details. </li>
+            <li> 6. The number of winners may be adjusted based on the number of participants.  </li>
+            <li> 7. The number of prize hair may be adjusted based on the number of participants.  </li>
+            <li> 8. Winners will be announced on April 5, 2023 on Instagram and Facebook. </li>
+            <li> 9. If you tag your Instagram, other photos of your work may be considered when selecting a winner. </li>
         </ul>
     </div>
   )

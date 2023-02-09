@@ -141,7 +141,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="photo">Photo</label>
+                <label htmlFor="photo"></label>
                 <input type='text' 
                         {...register('imageField', {required: "Please enter Photo"})}
                         id='imageField'

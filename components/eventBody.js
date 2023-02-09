@@ -59,7 +59,7 @@ function eventBody() {
        
 
       <div className='mb-4'>
-        <Image src={'/images/mainbanner2.jpg'} alt='head' width={1050} height={850} />
+        <Image src={'/images/mainbanner-2.jpg'} alt='head' width={1050} height={850} />
         
     </div>
         <div>
