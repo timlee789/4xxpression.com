@@ -4,7 +4,7 @@ import Iframe from 'react-iframe';
 function map() {
   return (
     <div class='mt-12 mb-12'>
-        <div class='text-xl mb-4'>The Stores which is selling the 4X Xpression</div>
+        <div class='text-xl mb-4 font-bold'>The Stores which is selling the 4X Xpression</div>
         <div class='mb-4 px-6'>
             <ul>
                 <li>A Store : 5555 NW 3445 Street, Atlant GA 33333</li>

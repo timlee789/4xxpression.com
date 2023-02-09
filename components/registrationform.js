@@ -90,7 +90,7 @@ export default function Registrationform() {
     }
   return (
     <div>
-        <h1 className="mb-4 mt-8 text xl">Registration</h1>
+        <h1 className="mb-4 mt-8 text-2xl font-bold">Registration</h1>
 
         <form className="mx-auto max-w-screen-md" onSubmit={handleSubmit(submitHandler)}>
             <div className="mb-4">
@@ -122,7 +122,7 @@ export default function Registrationform() {
                         {...register('email', {required: "Please enter your email"})}
                         id='email'
                         className="w-full bg-yellow-400"
-                        autoFocus
+                        
                 ></input>
                 {errors.email && (
                     <div className="text-red-500">{errors.email.message}</div>
