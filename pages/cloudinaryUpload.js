@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { uploadCloudinary } from './api/upload'
 
-function cloudinaryUpload() {
+function CloudinaryUpload() {
     const[images, setImages] = useState([])
     const[links, setLinks] = useState([])
     const[loading, setLoading] = useState(false)
@@ -48,4 +48,4 @@ function cloudinaryUpload() {
   )
 }
 
-export default cloudinaryUpload
+export default CloudinaryUpload

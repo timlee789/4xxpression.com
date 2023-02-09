@@ -18,7 +18,7 @@ function reducer(state, action) {
             return state;
     }
 }
-export default function registrationform() {
+export default function Registrationform() {
     const[images, setImages] = useState([])
     const[links, setLinks] = useState([])
     const [{ loading, error, products}, dispatch] = useReducer(reducer, {
