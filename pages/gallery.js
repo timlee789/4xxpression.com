@@ -3,12 +3,12 @@ import db from '@/utils/db'
 import React from 'react'
 import GuestGallery from '../components/guestGallery';
 
-function gallery({gallery2}) {
-    console.log(gallery2)
+function gallery({gallery}) {
+    console.log(gallery)
   return ( 
         <div className='flex justify-center card'>
             <div className='grid grid-cols-1 gap-4 mt-10 md:grid-cols-3 lg:grid-cols-5 ml-7'>
-                {gallery2.map((gues) => (
+                {gallery.map((gues) => (
                     <GuestGallery
                         key={gues._id}
                         id={gues._id}
@@ -32,7 +32,7 @@ export async function getServerSideProps() {
     const guest = await Guest.find().lean();
     return {
         props: {
-            gallery2: guest.map((guest) => ({
+            gallery: guest.map((guest) => ({
                 _id: guest._id.toString(),
                 name: guest.name || null,
                 tel: guest.tel || null,
