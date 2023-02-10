@@ -7,10 +7,10 @@ function eventHead() {
       <div>
          <Image src={'/images/banner-top.jpg'} alt='head' width={1050} height={850} />
       </div>
-      <div className='flex justify-center'>
-        <Image src={'/images/prizebraid.jpg'} alt='head' width={200} height={400} />
-        <Image src={'/images/prizeweave.jpg'} alt='head' width={200} height={400} />
-        <Image src={'/images/prizeclip.jpg'} alt='head' width={200} height={400} />
+      <div>
+        <Image src={'/images/prizebraid2.jpg'} alt='head' width={600} height={300} className='mb-4' />
+        <Image src={'/images/prizeweave2.jpg'} alt='head' width={600} height={300} className='mb-4'/>
+        <Image src={'/images/prizeclip2.jpg'} alt='head' width={600} height={300} className='mb-4'/>
       </div>
     </div>
   )
