@@ -94,7 +94,7 @@ export default function Registrationform() {
 
         <form className="mx-auto max-w-screen-md" onSubmit={handleSubmit(submitHandler)}>
             <div className="mb-4">
-                <label htmlFor="name" className="text-black-600">Name</label>
+                <label htmlFor="name"><div className="text-black-600">Name</div></label>
                 <input type='text' 
                         {...register('name', {required: "Please enter your name"})}
                         id='name'
@@ -106,7 +106,7 @@ export default function Registrationform() {
             </div>
 
             <div className="mb-4">
-                <label htmlFor="tel" className="text-black-600">Tel</label>
+                <label htmlFor="tel"><div className="text-black-600">Tel</div></label>
                 <input type='text' 
                         {...register('tel', {required: "Please enter your Phone"})}
                         id='tel'
@@ -117,7 +117,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="email" className="text-black-600">Email</label>
+                <label htmlFor="email"><div className="text-black-600">Email</div></label>
                 <input type='text' 
                         {...register('email', {required: "Please enter your email"})}
                         id='email'
@@ -129,7 +129,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="instaid" className="text-black-600">instagram ID</label>
+                <label htmlFor="instaid" ><div className="text-black-600">instagram ID</div></label>
                 <input type='text' 
                         {...register('instaid', {required: "Please enter your instaid"})}
                         id='instaid'
@@ -154,7 +154,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="imageFile" className="text-black-600">Upload image</label>
+                <label htmlFor="imageFile" ><div className="text-black-600">Upload Image</div></label>
                 <input
                         type="file"
                         className="w-full"
@@ -164,7 +164,7 @@ export default function Registrationform() {
                 {/* {loading && <div>Uploading....</div>} */}
             </div>
             <div className="mb-8">
-                <button class='primary-button'>Submit</button></div>
+                <button class='primary-button ml-48'>Submit</button></div>
         </form>
     </div>
   )
