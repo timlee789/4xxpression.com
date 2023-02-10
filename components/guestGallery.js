@@ -8,12 +8,14 @@ function guestGallery(props) {
             <Image
                 src={props.imageField}
                 alt={props.name}
-                className='rounded shadow-md'
+                className='rounded shadow-md w-64 h-80 mx-2 my-2'
                 width={350}
                 height={800}
             />
-            <div>{props.name}</div>
-            <div>{props.instaid}</div>
+            <div className='bg-slate-200'>
+            <div className='text-center font-bold'>{props.name}</div>
+            <div className='text-center'>Intagram @{props.instaid}</div>
+            </div>
         </div>
     </div>
   )

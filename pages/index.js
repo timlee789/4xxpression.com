@@ -5,6 +5,7 @@ import EventBody from '@/components/eventBody';
 import Map from '../components/map';
 import Regulation from '@/components/regulation';
 
+
 export default function Home() {
   return (
     <div class='w-min mx-auto bg-white'>
@@ -13,6 +14,7 @@ export default function Home() {
       <Registrationform/>
       <Regulation />
       <Map />
+     
       <EventBody />
     </Layout>
    

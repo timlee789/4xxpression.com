@@ -147,7 +147,7 @@ export default function Registrationform() {
                         id='imageField'
                         hidden={true}
                         className="w-full bg-yellow-400"
-                        autoFocus
+                        
                 ></input>
                 {errors.imageField && (
                     <div className="text-red-500">{errors.imageField.message}</div>
