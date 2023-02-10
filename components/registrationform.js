@@ -98,7 +98,7 @@ export default function Registrationform() {
                 <input type='text' 
                         {...register('name', {required: "Please enter your name"})}
                         id='name'
-                        className="w-full bg-yellow-400"
+                        className="w-full bg-yellow-400 h-16"
                 ></input>
                 {errors.name && (
                     <div className="text-red-500">{errors.name.message}</div>
@@ -110,7 +110,7 @@ export default function Registrationform() {
                 <input type='text' 
                         {...register('tel', {required: "Please enter your Phone"})}
                         id='tel'
-                        className="w-full bg-yellow-400"
+                        className="w-full bg-yellow-400 h-16"
                 ></input>
                 {errors.tel && (
                     <div className="text-red-500">{errors.tel.message}</div>
@@ -121,7 +121,7 @@ export default function Registrationform() {
                 <input type='text' 
                         {...register('email', {required: "Please enter your email"})}
                         id='email'
-                        className="w-full bg-yellow-400"
+                        className="w-full bg-yellow-400 h-16"
                         
                 ></input>
                 {errors.email && (
@@ -133,7 +133,7 @@ export default function Registrationform() {
                 <input type='text' 
                         {...register('instaid', {required: "Please enter your instaid"})}
                         id='instaid'
-                        className="w-full bg-yellow-400"
+                        className="w-full bg-yellow-400 h-16"
                        
                 ></input>
                 {errors.instaid && (
@@ -157,7 +157,7 @@ export default function Registrationform() {
                 <label htmlFor="imageFile" ><div className="text-xl font-bold text-slate-600">Upload Image</div></label>
                 <input
                         type="file"
-                        className="w-full"
+                        className="w-full text-2xl font-bold mb-12"
                         id="imageFile"
                         onChange={uploadHandler}
                 />
