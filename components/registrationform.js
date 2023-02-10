@@ -154,10 +154,10 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="imageFile" ><div className="text-xl font-bold text-slate-600">Upload Image</div></label>
+                <label htmlFor="imageFile" ><div className="text-xl font-bold text-slate-600">Upload Photo</div></label>
                 <input
                         type="file"
-                        className="w-full text-2xl font-bold mb-12"
+                        className="w-full text-4xl font-bold mb-12"
                         id="imageFile"
                         onChange={uploadHandler}
                 />
