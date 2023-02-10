@@ -90,11 +90,11 @@ export default function Registrationform() {
     }
   return (
     <div>
-        <h1 className="mb-4 mt-8 text-2xl font-bold">Registration</h1>
+        <h1 className="mb-4 mt-8 text-2xl font-bold text-blue-600">Registration</h1>
 
         <form className="mx-auto max-w-screen-md" onSubmit={handleSubmit(submitHandler)}>
             <div className="mb-4">
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name" className="text-black-600">Name</label>
                 <input type='text' 
                         {...register('name', {required: "Please enter your name"})}
                         id='name'
@@ -106,7 +106,7 @@ export default function Registrationform() {
             </div>
 
             <div className="mb-4">
-                <label htmlFor="tel">Tel</label>
+                <label htmlFor="tel" className="text-black-600">Tel</label>
                 <input type='text' 
                         {...register('tel', {required: "Please enter your Phone"})}
                         id='tel'
@@ -117,7 +117,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email" className="text-black-600">Email</label>
                 <input type='text' 
                         {...register('email', {required: "Please enter your email"})}
                         id='email'
@@ -129,7 +129,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="instaid">instagram ID</label>
+                <label htmlFor="instaid" className="text-black-600">instagram ID</label>
                 <input type='text' 
                         {...register('instaid', {required: "Please enter your instaid"})}
                         id='instaid'
@@ -154,7 +154,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="imageFile">Upload image</label>
+                <label htmlFor="imageFile" className="text-black-600">Upload image</label>
                 <input
                         type="file"
                         className="w-full"
