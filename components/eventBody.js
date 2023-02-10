@@ -71,10 +71,8 @@ function eventBody() {
               height={573}
               className="element1 card"
             />
-
-            {/* <div className="element5 hidden md:block ">{display2}</div> */}
             <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-13.jpg"
+              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-3.jpg"
               alt="banner"
               width={300}
               height={573}
@@ -87,8 +85,6 @@ function eventBody() {
               height={573}
               className="element3"
             />
-            
-            <div className="md:hidden">
               <Image
                 src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-5.jpg"
                 alt="banner"
@@ -96,7 +92,7 @@ function eventBody() {
                 height={573}
                 className="element4 "
               />
-            </div>
+           
             <Image
               src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-9.jpg"
               alt="banner"
@@ -113,42 +109,52 @@ function eventBody() {
             />
           </div>
          
-          {/* <div className="p-5 md:hidden ">{display2}</div> */}
-          <div className=" grid grid-cols-2 p-5 gap-5 md:grid-cols-2">
-           
+
+          <div className=" grid grid-cols-2 p-5 gap-5 md:grid-cols-2 ">
             <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-8.jpg"
+              src="/images/trio1.jpg"
+              alt="banner"
+              width={300}
+              height={573}
+              className="element1 card"
+            />
+            <Image
+              src="/images/trio3.jpg"
               alt="banner"
               width={300}
               height={573}
               className="element2"
             />
-           
-            
-            {/* <div className="hidden md:block">{display1}</div> */}
-            <div className="md:hidden">
-              <Image
-                src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-10.jpg"
-                alt="banner"
-                width={300}
-                height={573}
-                className="element4"
-              />
-            </div>
+            <Image
+              src="/images/trio6.jpg"
+              alt="banner"
+              width={300}
+              height={573}
+              className="element3"
+            />
+             
+             <Image
+              src="/images/trio7.jpg"
+              alt="banner"
+              width={300}
+              height={573}
+              className="element1"
+            />
           </div>
-          {/* {displaybanner}
-          {displaybannerl} */}
-          {/* <div className="p-5 md:hidden">{display1}</div> */}
+         
+        
+       
+
           <div className=" grid grid-cols-2 p-5 gap-5 md:grid-cols-2">
             <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-B3.jpg"
+              src="/images/clip1.jpg"
               alt="banner"
               width={300}
               height={533}
               className="element5"
             />
             <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-B2.jpg"
+              src="/images/clip2.jpg"
               alt="banner"
               width={300}
               height={533}
@@ -156,46 +162,14 @@ function eventBody() {
             />
 
             <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-B1.jpg"
+              src="/images/clip3.jpg"
               alt="banner"
               width={300}
               height={533}
               className="element5"
             />
             <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-B4.jpg"
-              alt="banner"
-              width={300}
-              height={533}
-              className="element"
-            />
-          </div>
-
-          <div className=" grid grid-cols-2 p-5 gap-5 md:grid-cols-2">
-            <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-4.jpg"
-              alt="banner"
-              width={300}
-              height={533}
-              className="element5"
-            />
-            <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-3.jpg"
-              alt="banner"
-              width={300}
-              height={533}
-              className="element1"
-            />
-
-            <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-6.jpg"
-              alt="banner"
-              width={300}
-              height={533}
-              className="element5"
-            />
-            <Image
-              src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-1.jpg"
+              src="/images/clip4.jpg"
               alt="banner"
               width={300}
               height={533}

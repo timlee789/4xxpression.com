@@ -134,7 +134,7 @@ export default function Registrationform() {
                         {...register('instaid', {required: "Please enter your instaid"})}
                         id='instaid'
                         className="w-full bg-yellow-400"
-                        autoFocus
+                       
                 ></input>
                 {errors.instaid && (
                     <div className="text-red-500">{errors.instaid.message}</div>
