@@ -104,17 +104,18 @@ function eventBody() {
               height={573}
               className="element3"
             />
-          </div>
-         
-          {/* <div className="p-5 md:hidden ">{display2}</div> */}
-          <div className=" grid grid-cols-2 p-5 gap-5 md:grid-cols-2">
-            <Image
+             <Image
               src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-12.jpg"
               alt="banner"
               width={300}
               height={573}
               className="element1"
             />
+          </div>
+         
+          {/* <div className="p-5 md:hidden ">{display2}</div> */}
+          <div className=" grid grid-cols-2 p-5 gap-5 md:grid-cols-2">
+           
             <Image
               src="https://bijouxhair.com/tim/landing3/home/4X-XPRESSION-8.jpg"
               alt="banner"

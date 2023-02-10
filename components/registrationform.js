@@ -90,11 +90,11 @@ export default function Registrationform() {
     }
   return (
     <div>
-        <h1 className="mb-4 mt-8 text-2xl font-bold text-blue-600">Registration</h1>
+        <h1 className="mb-4 mt-8 text-3xl font-bold text-blue-600">Registration</h1>
 
         <form className="mx-auto max-w-screen-md" onSubmit={handleSubmit(submitHandler)}>
             <div className="mb-4">
-                <label htmlFor="name"><div className="text-slate-600">Name</div></label>
+                <label htmlFor="name"><div className="text-xl font-bold text-slate-600">Name</div></label>
                 <input type='text' 
                         {...register('name', {required: "Please enter your name"})}
                         id='name'
@@ -106,7 +106,7 @@ export default function Registrationform() {
             </div>
 
             <div className="mb-4">
-                <label htmlFor="tel"><div className="text-slate-600">Tel</div></label>
+                <label htmlFor="tel"><div className="text-xl font-bold text-slate-600">Tel</div></label>
                 <input type='text' 
                         {...register('tel', {required: "Please enter your Phone"})}
                         id='tel'
@@ -117,7 +117,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="email"><div className="text-slate-600">Email</div></label>
+                <label htmlFor="email"><div className="text-xl font-bold text-slate-600">Email</div></label>
                 <input type='text' 
                         {...register('email', {required: "Please enter your email"})}
                         id='email'
@@ -129,7 +129,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="instaid" ><div className="text-slate-600">instagram ID</div></label>
+                <label htmlFor="instaid" ><div className="text-xl font-bold text-slate-600">Instagram ID</div></label>
                 <input type='text' 
                         {...register('instaid', {required: "Please enter your instaid"})}
                         id='instaid'
@@ -154,7 +154,7 @@ export default function Registrationform() {
                 )}
             </div>
             <div className="mb-4">
-                <label htmlFor="imageFile" ><div className="text-slate-600">Upload Image</div></label>
+                <label htmlFor="imageFile" ><div className="text-xl font-bold text-slate-600">Upload Image</div></label>
                 <input
                         type="file"
                         className="w-full"
@@ -164,7 +164,7 @@ export default function Registrationform() {
                 {/* {loading && <div>Uploading....</div>} */}
             </div>
             <div className="mb-8">
-                <button class='primary-button ml-48'>Submit</button></div>
+                <button class='primary-button ml-48 text-2xl font-bold'>Submit</button></div>
         </form>
     </div>
   )
