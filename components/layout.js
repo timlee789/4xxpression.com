@@ -13,17 +13,17 @@ function Layout({ title, children }) {
     <div>
       <Head>
         <title>{title ? title + '-Bijoux' : '4X Xpression'}</title>
-        <meta name="description" content="Destiny Wig Giveaway Event" />
+        <meta name="description" content=" Realistic Xpression Hair Style Photo Contest" />
         <link
           rel="image_src"
-          href="https://bijouxhair.com/tim/ad/mainbanner.jpg"
+          href="https://bijouxhair.com/tim/ad/thumb-contest.jpg"
         />
-        <meta property="og:title" content="Destiny Wig Giveaway Event" />
+        <meta property="og:title" content="Realistic Hair Style Photo Contest" />
         <meta
           property="og:image"
-          content="https://bijouxhair.com/tim/ad/mainbanner.jpg"
+          content="https://bijouxhair.com/tim/ad/thumb-contest.jpg"
         />
-        <meta property="og:description" content="Destiny Wig Giveaway Event" />
+        <meta property="og:description" content="Realistic Hair Style Photo Contest" />
         <meta property="og:site_name" content="Beauty Elements" />
       </Head>
       <ToastContainer position="bottom-center" limit={1} autoClose={2000} />
