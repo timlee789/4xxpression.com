@@ -30,9 +30,9 @@ function Layout({ title, children }) {
 
       <div className="flex min-h-screen flex-col justify-between ">
         <header className='flex'>
-          <nav className="flex h-12 items-center px-4 justify-between ">
+          <nav className="flex  items-center px-4 justify-between ">
             <Link href="/">
-              <div className="text-2xl font-bold">Beauty Elements </div>
+              <div> </div>
             </Link>
           </nav>
           {/* <div><Link href='/photoGallery'>Go to Gallery</Link></div> */}
