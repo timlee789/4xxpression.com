@@ -8,7 +8,7 @@ function guestGallery(props) {
             <Image
                 src={props.imageField}
                 alt={props.name}
-                className='rounded shadow-md w-64 h-80 mx-2 my-2'
+                className='rounded shadow-md w-64 h-80 my-2'
                 width={350}
                 height={800}
             />
