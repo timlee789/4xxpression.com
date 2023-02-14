@@ -8,7 +8,7 @@ function eventHead() {
       <div>
          <Image src={'/images/banner-top.jpg'} alt='head' width={1050} height={850} />
       </div>
-      <div className='text-2xl text-center font-grey-600 font-bold'>Rachel is Introducing the Event </div>
+      <div className='text-2xl text-center text-slate-500 font-bold'>Rachel Introduce the Event </div>
       <div className='bg-slate-200 mb-4 py-4'>
         
           <ReactPlayer url='/images/haireventintro.mp4' playing='true' width={600} controls='true' />
