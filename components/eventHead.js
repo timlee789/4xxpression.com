@@ -11,7 +11,7 @@ function eventHead() {
       <div className='text-2xl text-center font-grey-600 font-bold'>Rachel is Introducing the Event </div>
       <div className='bg-slate-200 mb-4 py-4'>
         
-          <ReactPlayer url='/images/haireventintro.mp4' playing='true' width={600}/>
+          <ReactPlayer url='/images/haireventintro.mp4' playing='true' width={600} controls='true' />
        
        
       </div>
