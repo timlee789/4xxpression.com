@@ -4,17 +4,23 @@ import React from 'react'
 import GuestGallery from '../components/guestGallery';
 import Layout from '@/components/layout';
 import EventHead from '@/components/eventHead2';
+import Link from 'next/link';
 
 function gallery({gallery}) {
-    console.log(gallery)
+   
   return ( 
-        <div className='mx-auto'>
+        <div class='w-auto mx-auto bg-white'>
         <Layout>
         <EventHead/>
-        {/* <div className='font-bold text-'>Photo Gallery</div> */}
-        <div >
-            <div className='grid grid-cols-2 gap-2 mt-3 md:grid-cols-3 lg:grid-cols-5 ml-1'>
-                {gallery.map((gues) => (
+       
+           
+      
+         <div className='font-bold text-center text-xl'>Photo Gallery (Feb 20 - Mar 31)</div> 
+       
+            <div>
+            <div className=' flex justify-center flex-wrap '>
+                {gallery.map((gues) => (      
+                    <div >            
                     <GuestGallery
                         key={gues._id}
                         id={gues._id}
@@ -23,11 +29,12 @@ function gallery({gallery}) {
                         email={gues.email}
                         instaid={gues.instaid}
                         imageField={gues.imageField}
-                    />
+                    /> 
+                </div>       
                 ))}
             </div>
-
-        </div>
+            </div>
+        
         </Layout>
         </div>
   )

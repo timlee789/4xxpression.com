@@ -29,15 +29,19 @@ function Layout({ title, children }) {
       <ToastContainer position="bottom-center" limit={1} autoClose={2000} />
 
       <div className="flex min-h-screen flex-col justify-between ">
-        <header className='flex'>
-          <nav className="flex  items-center px-4 justify-between ">
+      <header>
+          <nav className="flex h-12 items-center px-4 justify-between shadow-md ">
             <Link href="/">
-              <div> </div>
+              <div className="text-lg font-bold">Home</div>
             </Link>
-          </nav>
-          {/* <div><Link href='/photoGallery'>Go to Gallery</Link></div> */}
-            
+           <div className='flex justify-between font-bold'>
+              <Link href="/gallery" className="px-4 flex">
+                Contestant Gallery
+              </Link>
+            </div>
+            </nav>
         </header>
+            
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex h-10 justify-center items-center shadow-inner lg: h-50">
           Copyright @2023 Beauty Elements
