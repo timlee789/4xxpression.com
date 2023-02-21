@@ -20,7 +20,7 @@ function gallery({gallery}) {
             <div>
             <div className=' flex justify-center flex-wrap '>
                 {gallery.map((gues) => (      
-                    <div >            
+                              
                     <GuestGallery
                         key={gues._id}
                         id={gues._id}
@@ -30,7 +30,7 @@ function gallery({gallery}) {
                         instaid={gues.instaid}
                         imageField={gues.imageField}
                     /> 
-                </div>       
+                  
                 ))}
             </div>
             </div>
