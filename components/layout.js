@@ -13,7 +13,7 @@ function Layout({ title, children }) {
     <div>
       <Head>
         <title>{title ? title + '-Bijoux' : '4X Xpression'}</title>
-        <meta name="description" content="Hair Wholesaler-Beauty Elements- offers 1000 packs braid hair and Bundle hair Clip Hair" />
+        <meta name="description" content="Atlanta Hair Style Photo Contest" />
         <link
           rel="image_src"
           href="/images/pavicon.jpg"
