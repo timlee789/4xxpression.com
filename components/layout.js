@@ -18,7 +18,7 @@ function Layout({ title, children }) {
           rel="image_src"
           href="/images/pavicon.jpg"
         />
-        <meta property="og:title" content="Hair Wholesaler-Beauty Elements- offers 1000 packs braid hair and Bundle hair Clip Hair" />
+        <meta property="og:title" content="Atlanta Hair Style Photo Contest" />
         <meta
           property="og:image"
           content="/images/pavicon.jpg"
