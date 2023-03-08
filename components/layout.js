@@ -16,12 +16,12 @@ function Layout({ title, children }) {
         <meta name="description" content=" Realistic Xpression Hair Style Photo Contest" />
         <link
           rel="image_src"
-          href="https://bijouxhair.com/tim/ad/thumb-contest.jpg"
+          href="/images/pavicon.jpg"
         />
         <meta property="og:title" content="Realistic Hair Style Photo Contest" />
         <meta
           property="og:image"
-          content="https://bijouxhair.com/tim/ad/thumb-contest.jpg"
+          content="/images/pavicon.jpg"
         />
         <meta property="og:description" content="Realistic Hair Style Photo Contest" />
         <meta property="og:site_name" content="Beauty Elements" />
