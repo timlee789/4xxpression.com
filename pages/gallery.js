@@ -44,7 +44,7 @@ export default gallery
 
 export async function getServerSideProps() {
     await db.connect();
-    const guest = await Guest.find().lean();
+    const guest = await Guest.find().sort({_id: -1}).lean();
     return {
         props: {
             gallery: guest.map((guest) => ({
